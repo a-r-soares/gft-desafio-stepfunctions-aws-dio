@@ -80,7 +80,7 @@ O conhecimento acumulado em plataformas legadas não é descartado; ele é uma *
 
 ---
 
-<img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/3f883ffa-dbfb-43d7-ae40-bd9456d6440f" /> ### Agradecimentos
+### <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/3f883ffa-dbfb-43d7-ae40-bd9456d6440f" /> Agradecimentos
 
 [Equipe GFT](https://www.gft.com/br/pt)
 
