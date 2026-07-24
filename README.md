@@ -60,4 +60,24 @@ A arquitetura baseada em Step Functions permite evolução contínua. É perfeit
 
 ---
 
+## 💡 Curiosidade de Arquitetura: Do Mainframe para a Nuvem (A Base Nunca Muda)
+
+Para profissionais que estão vivenciando uma transição de carreira ou de ambiente tecnológico — especialmente aqueles vindos do ecossistema de **Mainframe** —, o AWS Step Functions pode parecer, à primeira vista, um conceito de "outro planeta". No entanto, uma análise estrutural revela que os princípios fundamentais de engenharia de software permanecem exatamente os mesmos, tendo sido apenas modernizados em suas técnicas e nomenclaturas.
+
+Existe um "De/Para" perfeito entre o processamento tradicional e a orquestração Serverless moderna:
+
+*   **A Máquina de Estados (State Machine) é o seu JCL (Job Control Language):** Assim como o JCL amarra a ordem de execução de um Job, o arquivo JSONata do Step Functions dita o fluxo lógico de como o processo deve navegar.
+*   **Os Estados (States/Tasks) são os seus Steps:** Cada função Lambda ou chamada de SNS atua exatamente como um *Step* de processamento do JCL executando um programa específico.
+*   **O Estado 'Succeed' é o seu RC=0 (Return Code):** Quando o caminho feliz do fluxo é concluído com sucesso (como no envio do pedido e notificação do cliente), a AWS encerra a execução com sucesso, equivalente ao clássico `Return Code 0`.
+*   **O Estado 'Fail' é o seu ABEND (Abnormal End):** A caixinha vermelha de falha configurada na rota de pagamento recusado funciona exatamente como um *Abend* controlado. Ela interrompe o fluxo de forma limpa, gerando um código de erro (`Error`) e uma causa (`Cause`) para auditoria.
+
+### 🚀 Um Incentivo para a Transição de Carreira
+
+A grande evolução conceitual reside no modelo de ativação: enquanto o Mainframe brilha no processamento assíncrono em lote (*Batch*) processando arquivos sequenciais massivos na madrugada, o Step Functions aplica os mesmos conceitos em tempo real, de forma distribuída, elástica e totalmente orientada a eventos disparados pelas ações instantâneas dos usuários.
+
+O conhecimento acumulado em plataformas legadas não é descartado; ele é uma **superpotência**. Entender de controle de fluxo, tratamento de erros, idempotência e integridade de dados confere uma vantagem competitiva imensa na Nuvem. Mudar de ambiente não significa recomeçar do zero, significa apenas atualizar o dicionário e as ferramentas para colonizar esse novo território com uma bagagem que já se provou sólida há décadas.
+
+
+---
+
 ### Agradecimentos
