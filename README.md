@@ -75,9 +75,17 @@ Existe um "De/Para" perfeito entre o processamento tradicional e a orquestraçã
 
 A grande evolução conceitual reside no modelo de ativação: enquanto o Mainframe brilha no processamento assíncrono em lote (*Batch*) processando arquivos sequenciais massivos na madrugada, o Step Functions aplica os mesmos conceitos em tempo real, de forma distribuída, elástica e totalmente orientada a eventos disparados pelas ações instantâneas dos usuários.
 
-O conhecimento acumulado em plataformas legadas não é descartado; ele é uma **superpotência**. Entender de controle de fluxo, tratamento de erros, idempotência e integridade de dados confere uma vantagem competitiva imensa na Nuvem. Mudar de ambiente não significa recomeçar do zero, significa apenas atualizar o dicionário e as ferramentas para colonizar esse novo território com uma bagagem que já se provou sólida há décadas.
+O conhecimento acumulado em plataformas legadas não é descartado; ele é uma **superpotência**. Entender de controle de fluxo, tratamento de erros e integridade de dados confere uma vantagem competitiva imensa na Nuvem. Mudar de ambiente não significa recomeçar do zero, significa apenas atualizar o dicionário e as ferramentas para colonizar esse novo território com uma bagagem que já se provou sólida há décadas.
 
 
 ---
 
-### Agradecimentos
+<img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/3f883ffa-dbfb-43d7-ae40-bd9456d6440f" /> ### Agradecimentos
+
+[Equipe GFT](https://www.gft.com/br/pt)
+
+[Equipe DIO](https://www.dio.me)
+
+Utilização de IA principalmente para tornar a documentação mais clara, objetiva e fluída.
+
+Brazil, Julho de 2026
