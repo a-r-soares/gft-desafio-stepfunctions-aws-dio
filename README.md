@@ -88,4 +88,4 @@ O conhecimento acumulado em plataformas legadas não é descartado; ele é uma *
 
 Utilização de IA principalmente para tornar a documentação mais clara, objetiva e fluída.
 
-Brazil, Julho de 2026
+Brasil, Julho de 2026
